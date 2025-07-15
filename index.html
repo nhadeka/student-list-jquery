@@ -115,7 +115,7 @@
                     </div>
                     <div class="form-group">
                         <label for="className">Sınıf</label>
-                        <input type="number" min="1" max="12" id="classId" placeholder="Sınıf" required>
+                        <input type="number" min="1" max="12" id="grade" placeholder="Sınıf" required>
                     </div>
                     <div class="button-wrapper">
                       <button type="submit" class="submit-button shadow-box">Ekle</button>
@@ -209,7 +209,7 @@
 
                     const firstName = $("#firstName").val().trim();
                     const lastName = $("#lastName").val().trim();
-                    const studentClass = $("#classId").val().trim();
+                    const studentClass = $("#grade").val().trim();
 
                     if (firstName && lastName && studentClass) {
                         studentData.push({
